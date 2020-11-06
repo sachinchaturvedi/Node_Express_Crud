@@ -107,7 +107,7 @@ module.exports ={
                     });
                     return res.json({
                         success : 1,
-                        message : "Login Successfully",
+                        message : "User Logged In Successfully",
                         token: jsontoken
                     });
                 } else{
